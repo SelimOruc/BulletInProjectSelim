@@ -1,0 +1,13 @@
+{
+    "name": "bulletin",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Selim",
+    "contributors": [],
+    "dependencies": {
+            "express": "^4.13.4",
+            "pg": "^4.4.3",
+            "jade": "^1.11.0",
+             "body-parser": "^1.15.1"
+    }
+}
