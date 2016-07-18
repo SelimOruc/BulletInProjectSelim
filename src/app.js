@@ -11,7 +11,7 @@ app.use(express.static('./static'));
 
 
 //var connectionString = 'postgres://' + process.env.POSTGRES_USER + ':' + process.env.POSTGRES_PASSWORD + '@localhost/bulletinboard';
-var connectionString = "postgres://postgres:ww@localhost/bulletinboard"; //moet nog veranderd worden
+var connectionString = "postgres://postgres:wachtwoord@localhost/bulletinboard"; //moet nog veranderd worden
 pg.connect(connectionString, function (err, client, done) {
 	client.query('select * from bericht', function (err, result) { // moet nog veranderd worden
 		//console.log(result.rows);
